@@ -10,7 +10,7 @@
 * Run through how it’s captured in Elastic
 * Close with overview of ECS
 
-Log into your Elastic Cloud Kibana instance.
+Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
 Select the ‘Add Security Data’.
 
