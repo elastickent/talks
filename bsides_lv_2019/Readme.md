@@ -32,6 +32,8 @@ Follow the install instructions to download and install with the dbkg only.
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
 
 <a name="configure"/></a>
+#### Att&ck Rules
+[Auditd Attack Rules](https://gist.githubusercontent.com/elastickent/839e5f49f8846d67b254d9318095c101/raw/9a9d35454ecfcaf549b413ed104f1cee22121429/auditd-attack.rules.conf)
 #### Set the cloudid and cloud authentication in the auditbeat keystore.
 
 `echo "YOUR_CLOUD_ID"|sudo auditbeat keystore add CLOUD_ID --stdin`                                                                                                                                                                      
