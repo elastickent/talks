@@ -15,7 +15,8 @@ Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda)
 Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
 <a name="download">
- <h4>Download Auditbeat</h>
+ <h4>Download Auditbeat</h4>
+ 
 ->Select the 'K' icon at the far left corner of Kibana.
 
 ->Select ‘Add Security Data’.
