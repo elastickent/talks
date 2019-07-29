@@ -10,7 +10,7 @@
 * Run through how it’s captured in Elastic
 * Close with overview of ECS
 
-Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
+#### Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
 ->Select the 'K' icon at the far left corner of Kibana.
 
@@ -27,7 +27,6 @@ __Do not manually edit the auditbeat.yml as instructed in Kabana.__
 #### Set the cloudid and cloud authentication in the auditbeat keystore.
 
 `echo "YOUR_CLOUD_ID"|sudo auditbeat keystore add CLOUD_ID --stdin`                                                                                                                                                                      
-
 `echo "elastic:YOUR_PASSWORD"|sudo auditbeat keystore add --stdin CLOUD_AUTH`
 
 #### Change to root  
@@ -48,7 +47,7 @@ __Do not manually edit the auditbeat.yml as instructed in Kabana.__
 
 `mv 2Y9nhXb attack.rules.conf`
 
-##### Login out
+##### Login out of the root account.
  `exit`                                                                              
 ##### Start Auditbeat
 
