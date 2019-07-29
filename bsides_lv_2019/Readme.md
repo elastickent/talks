@@ -12,13 +12,15 @@
 
 Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
-Select the ‘Add Security Data’.
+->Select the 'K' icon at the far left corner of Kibana.
 
-Select Auditbeat
+->Select ‘Add Security Data’.
 
-Under ‘Getting Started’, select ‘DEB’
+->Select Auditbeat
 
-Follow the install instructions to download and install with the dbkg.
+->Under ‘Getting Started’, select ‘DEB’
+
+Follow the install instructions to download and install with the dbkg only.
 
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
 
@@ -38,7 +40,7 @@ __Do not manually edit the auditbeat.yml as instructed in Kabana.__
 
 `echo 'cloud.auth: "${CLOUD_AUTH}"'>> /etc/auditbeat/auditbeat.yml`
 
-##### Download the Att&ck based
+##### Download the Att&ck based rules.
 
 `cd /etc/auditbeat/audit.rules.d`
 
