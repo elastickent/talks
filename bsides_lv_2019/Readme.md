@@ -1,18 +1,20 @@
 # Finding Evil with Mitre Att&ck and the Elastic Stack
 
 ### High level flow
-
-* Setup a [new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
-* Spin up a [Strigo](#strigo) based Linux Environment
-* Download Auditbeat
+* [Spin up a Strigo based Linux Environment](#strigo)
+* [Setup a new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
+* [Download Auditbeat](#download)
 * Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud
 * Have users go through some local ttp’s via command line
 * Run through how it’s captured in Elastic
 * Close with overview of ECS
 
-
+<a name="strigo"/>
+Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda). 
+</a>
 #### Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
+<a name="download">
 ->Select the 'K' icon at the far left corner of Kibana.
 
 ->Select ‘Add Security Data’.
@@ -21,12 +23,12 @@
 
 ->Under ‘Getting Started’, select ‘DEB’
 
-<a name="strigo"/>
-Go to [Strigo login](). 
+
 
 Follow the install instructions to download and install with the dbkg only.
 
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
+
 
 #### Set the cloudid and cloud authentication in the auditbeat keystore.
 
