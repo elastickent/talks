@@ -3,12 +3,13 @@
 ### High level flow
 
 * Setup a [new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
-* Spin up a Strigo based Linux Environment
+* Spin up a [Strigo](#strigo) based Linux Environment
 * Download Auditbeat
 * Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud
 * Have users go through some local ttp’s via command line
 * Run through how it’s captured in Elastic
 * Close with overview of ECS
+
 
 #### Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
@@ -19,6 +20,9 @@
 ->Select Auditbeat
 
 ->Under ‘Getting Started’, select ‘DEB’
+
+<a name="strigo"/>
+Go to [Strigo login](). 
 
 Follow the install instructions to download and install with the dbkg only.
 
