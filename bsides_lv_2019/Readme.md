@@ -2,7 +2,7 @@
 
 ### High level flow
 * [Spin up a Strigo based Linux Environment](#strigo)
-* [Setup a new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
+* [Setup a new elastic cloud cluster]()
 * [Download Auditbeat](#download)
 * [Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud](#configure)
 * [Have users go through some local ttp’s via command line](#cmdline)
@@ -10,12 +10,17 @@
 * [Overview of ECS and SIEM](#siem)
 
 <a name="strigo"/></a>
+## Strigo
 Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda) 
 
+<a name="cloud"/></a>
+## Create your Elastic Cloud cluster.
+[Go through the setup guide](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
 Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
-<a name="download">
- <h4>Download Auditbeat</h4>
+
+<a name="download"></a>
+ ### Download Auditbeat
  
 ->Select the 'K' icon at the far left corner of Kibana.
 
@@ -24,10 +29,9 @@ Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 ->Select Auditbeat
 
 ->Under ‘Getting Started’, select ‘DEB’
-</a>
 
 <a name="cmdline"/></a>
-Follow the install instructions to download and install with the dbkg only.
+Follow the install instructions in Kibana to download and install with the dbkg only.
 
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
 
