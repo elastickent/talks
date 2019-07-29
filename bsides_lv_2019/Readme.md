@@ -6,8 +6,8 @@
 * [Download Auditbeat](#download)
 * [Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud](#configure)
 * [Have users go through some local ttp’s via command line](#cmdline)
-* Run through how it’s captured in Elastic
-* Close with overview of ECS
+* [How it’s captured in Elastic](#capture)
+* [Overview of ECS and SIEM](#siem)
 
 <a name="strigo"/></a>
 Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda) 
@@ -31,7 +31,7 @@ Follow the install instructions to download and install with the dbkg only.
 
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
 
-
+<a name="configure"/></a>
 #### Set the cloudid and cloud authentication in the auditbeat keystore.
 
 `echo "YOUR_CLOUD_ID"|sudo auditbeat keystore add CLOUD_ID --stdin`                                                                                                                                                                      
@@ -60,3 +60,5 @@ __Do not manually edit the auditbeat.yml as instructed in Kabana.__
 ##### Start Auditbeat
 
 `sudo service auditbeat start`
+<a name="cmdline"/></a>
+#### 
