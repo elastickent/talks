@@ -5,17 +5,17 @@
 * [Setup a new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
 * [Download Auditbeat](#download)
 * [Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud](#configure)
-* [Have users go through some local ttp’s via command line](
+* [Have users go through some local ttp’s via command line](#cmdline)
 * Run through how it’s captured in Elastic
 * Close with overview of ECS
 
-<a name="strigo"/>
+<a name="strigo"/></a>
 Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda) 
-</a>
-#### Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
+
+Log into your Elastic [Cloud Kibana](https://cloud.elastic.co/login) instance.
 
 <a name="download">
- #### Download Auditbeat
+ <h4>Download Auditbeat</h>
 ->Select the 'K' icon at the far left corner of Kibana.
 
 ->Select ‘Add Security Data’.
@@ -25,7 +25,7 @@ Go to [Strigo login](https://app.strigo.io/event/HrJm4zCyf9u7zKXda)
 ->Under ‘Getting Started’, select ‘DEB’
 </a>
 
-
+<a name="cmdline"/></a>
 Follow the install instructions to download and install with the dbkg only.
 
 __Do not manually edit the auditbeat.yml as instructed in Kabana.__  
