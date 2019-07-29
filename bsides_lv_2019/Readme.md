@@ -2,7 +2,7 @@
 
 ### High level flow
 
-* Setup a new elastic cloud cluster
+* Setup a [new elastic cloud cluster](https://docs.google.com/document/d/104kc_aZiyMzbmTfdxDyKMIQUG9sr5gkMR26j0pjFoFQ/edit?usp=sharing)
 * Spin up a Strigo based Linux Environment
 * Download Auditbeat
 * Configure Auditbeat with Att&ck auditd ttp rules to output to Elastic cloud
